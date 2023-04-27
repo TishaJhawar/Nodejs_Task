@@ -20,8 +20,5 @@ app.get("/tisha", (req, res)=>{
     res.send("Tisha APi.........")
 })
 app.post("/Dashboard", (req,res)=>{
-    res.send("Hello!")
+    res.send("Hello from desktop folder!")
 })
-
-
-
