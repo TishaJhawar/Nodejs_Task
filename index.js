@@ -19,7 +19,7 @@ app.use('/api', routes);
 app.get("/tisha", (req, res)=>{
     res.send("Tisha APi.........")
 })
-app.post("/kishan", (req,res)=>{
+app.get("/kishan", (req,res)=>{
     res.send("Will you become my atm and u r toooo intelligent!!")
 })
 
