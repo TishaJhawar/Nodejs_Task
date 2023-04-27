@@ -15,7 +15,10 @@ app.listen(port, ()=>{
 })
 // const redis= require("redis");
 // const client1 = redis.createClient();
- app.use('/api', routes);
+app.use('/api', routes);
+app.get("/tisha", (req, res)=>{
+    res.send("Tisha APi.........")
+})
 app.post("/Dashboard", (req,res)=>{
     res.send("hello")
 })
